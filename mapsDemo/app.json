@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/maps/maps"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "LBS应用展示",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#dddddd",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "当前位置"
+    },{
+      "pagePath": "pages/maps/maps",
+      "text": "地图周边"
+    }]
+  },
+  "debug": true
+}
